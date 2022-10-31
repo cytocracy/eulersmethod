@@ -15,7 +15,8 @@ print("Enter x to find y")
 x2 = eval(input())
 
 while(x1 < x2):
+    print("pt: (", x1, ",", y1, ")")
     y1 = y1 + f(x1)*dx
     x1 = x1 + dx
 
-print("Final pt: (", x1, ",", y1, ")")
+print("Final pt: (", x2, ",", y1, ")")
