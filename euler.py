@@ -14,6 +14,7 @@ dx = eval(input())
 print("Enter x to find y")
 x2 = eval(input())
 
+print("\n----------------------\n")
 while(x1 < x2):
     print("pt: (", x1, ",", y1, ")")
     y1 = y1 + f(x1)*dx
